@@ -1,0 +1,139 @@
+
+header {
+  background-color: #FFE2DE;
+  padding: 15px;
+}
+header li:hover {
+  background-color: #BCDCF6;
+}
+header ul {
+  float: right;
+  color: rgb(0, 0, 0);
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+.jumbotron {
+  background-image: url(../images/AdobeStock_172862809.jpeg);
+  background-size: cover;
+}
+
+.jumbotron h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  color: azure;
+}
+
+.jumbotron p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
+  color: azure;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  background-color: #FFE2DE;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  text-align: right;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer p {
+  text-align: left;
+  float:left
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.image {
+  flex: 0 0 40%;
+  text-align: center;
+}
+.text {
+  flex: 0 0 50%;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+   
+}
+.image img {
+  width: 300px;
+  height: 350px;
+  border-radius: 10%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 10px;
+}
+
+.image-container img {
+  margin: 0 10px;
+  max-width: 400px;
+  height: 400px;
+  border-radius: 10%;
+}
+
+.column-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 50%;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.column img {
+  margin: 0 10px;
+  max-width: 400px;
+  height: 400px;
+  border-radius: 10%;
+}
+
+.column h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.column p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px
+  line-height: 10px;
+  text-align:justify;
+
+}
+
+
+
